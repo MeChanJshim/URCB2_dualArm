@@ -71,6 +71,6 @@
 > $ ros2 run Y2RobMotion dualArm_cmd
 
 > ### Code Structure
->                     [FT Sensor]------(Y2FT_AQ/FTGetMain)------>|  
+> [FT Sensor]---------------(Y2FT_AQ/FTGetMain)---------------->|  
 > [Actual_robot] <--(yur_ros2_driver/yur_single) --> [Y2RobMotion/singleArm_motion] <-- [Y2RobMotion/singleArm_cmd]
 
