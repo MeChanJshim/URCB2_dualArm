@@ -43,3 +43,12 @@
   > $ echo 'export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig:$PKG_CONFIG_PATH' >> ~/.bashrc
   > $ echo 'export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH' >> ~/.bashrc  
   > $ source ~/.bashrc  
+
+## EXECUTION
+> ### Communication with actual robot
+> *** Single UR10CB2 activate ***  
+> $ ros2 run yur_ros2_driver yur_single  
+> *** Dual UR10CB2 activate ***  
+> $ ros2 run yur_ros2_driver yur_multi  
+
+
