@@ -11,14 +11,20 @@
 ### REQUIRED PACKAGE
 * OSQP
   > ** Build from source file **  
-  > [requrements]  
-  > sudo apt update  
-  > sudo apt install git cmake build-essential  
+  > [Requrements]  
+  > $ sudo apt update  
+  > $ sudo apt install git cmake build-essential  
 
-# OSQP 소스 다운로드
-cd ~
-git clone --recursive https://github.com/osqp/osqp.git
-cd osqp
+  > [Download source]  
+  > $ cd ~ 
+  > $ git clone --recursive https://github.com/osqp/osqp.git
+  > $ cd osqp
+
+  > [Download source]  
+  > $ cd ~ 
+  > $ git clone --recursive https://github.com/osqp/osqp.git
+  > $ cd osqp
+
 
 # 빌드 디렉토리 생성 및 빌드
 mkdir build && cd build
