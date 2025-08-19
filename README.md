@@ -11,7 +11,6 @@
 ## REQUIRED PACKAGE
 ### OSQP
   > ** Build from source file **
-  ---
   > [Requrements]  
   > $ sudo apt update  
   > $ sudo apt install git cmake build-essential  
@@ -36,4 +35,4 @@
 
   > [Update the library cash]  
   > $ sudo ldconfig  
- 
+---
