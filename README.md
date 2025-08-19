@@ -31,14 +31,14 @@
   > [Update the library cash]  
   > $ sudo ldconfig
 
-  > ** Confirm the installation **
+  > ** Confirm the installation **  
   > [Confirm the header file]  
   > $ ls /usr/local/include/osqp/  
   > [Confirm the pkg-config setting]  
   > $ export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig:$PKG_CONFIG_PATH    
   > $ pkg-config --cflags osqp    
 
-  > ** Setting the env. variables **
+  > ** Setting the env. variables **  
   > [Add to ~/.bashrc]  
   > $ echo 'export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig:$PKG_CONFIG_PATH' >> ~/.bashrc
   > $ echo 'export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH' >> ~/.bashrc  
