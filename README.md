@@ -9,7 +9,7 @@
 * ROS2 HUMBLE
 
 ## REQUIRED PACKAGE
-* OSQP
+### OSQP
   > ** Build from source file **  
   > [Requrements]  
   > $ sudo apt update  
