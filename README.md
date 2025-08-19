@@ -10,7 +10,7 @@
 
 ### REQUIRED PACKAGE
 * OSQP
-  > **1. Build from source file ** 
+  > ** Build from source file **  
   > [requrements]  
   > sudo apt update  
   > sudo apt install git cmake build-essential  
