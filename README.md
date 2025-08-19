@@ -16,14 +16,14 @@
   > $ sudo apt install git cmake build-essential  
 
   > [Download source]  
-  > $ cd ~ 
-  > $ git clone --recursive https://github.com/osqp/osqp.git
-  > $ cd osqp
+  > $ cd ~  
+  > $ git clone --recursive https://github.com/osqp/osqp.git  
+  > $ cd osqp  
 
   > [Download source]  
-  > $ cd ~ 
-  > $ git clone --recursive https://github.com/osqp/osqp.git
-  > $ cd osqp
+  > $ cd ~   
+  > $ git clone --recursive https://github.com/osqp/osqp.git  
+  > $ cd osqp  
 
 
 # 빌드 디렉토리 생성 및 빌드
