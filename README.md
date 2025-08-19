@@ -14,25 +14,32 @@
   > [Requrements]  
   > $ sudo apt update  
   > $ sudo apt install git cmake build-essential  
-
   > [Download source]  
   > $ cd ~  
   > $ git clone --recursive https://github.com/osqp/osqp.git  
   > $ cd osqp  
-
   > [Download source]  
   > $ cd ~   
   > $ git clone --recursive https://github.com/osqp/osqp.git  
   > $ cd osqp  
-
   > [Generate the build directory & Build]  
   > $ mkdir build && cd build  
   > $ cmake -G "Unix Makefiles" -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/usr/local ..
   > $ make -j$(nproc) 
-
   > [Install]  
   > $ sudo make install
-
   > [Update the library cash]  
-  > $ sudo ldconfig  
----
+  > $ sudo ldconfig
+
+  > ** Confirm the installation **
+  > [Confirm the header file]  
+  > $ ls /usr/local/include/osqp/  
+  > [Confirm the pkg-config setting]  
+  > $ export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig:$PKG_CONFIG_PATH    
+  > $ pkg-config --cflags osqp    
+
+  > ** Setting the env. variables **
+  > [Add to ~/.bashrc]  
+  > $ echo 'export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig:$PKG_CONFIG_PATH' >> ~/.bashrc
+  > $ echo 'export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH' >> ~/.bashrc  
+  > $ source ~/.bashrc  
