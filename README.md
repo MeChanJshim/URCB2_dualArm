@@ -25,14 +25,14 @@
   > $ git clone --recursive https://github.com/osqp/osqp.git  
   > $ cd osqp  
 
+  > [Generate the build directory & Build]  
+  > $ mkdir build && cd build  
+  > $ cmake -G "Unix Makefiles" -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/usr/local ..
+  > $ make -j$(nproc) 
 
-# 빌드 디렉토리 생성 및 빌드
-mkdir build && cd build
-cmake -G "Unix Makefiles" -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/usr/local ..
-make -j$(nproc)
+  > [Install]  
+  > $ sudo make install
 
-# 설치
-sudo make install
-
-# 라이브러리 캐시 업데이트
-sudo ldconfig    
+  > [Update the library cash]  
+  > $ sudo ldconfig  
+ 
