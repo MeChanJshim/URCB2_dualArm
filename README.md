@@ -12,7 +12,7 @@
 ### OSQP
   > ** Build from source file **  
   > [Requrements]  
-  > $ sudo apt update  
+  >            $ sudo apt update  
   > $ sudo apt install git cmake build-essential  
   > [Download source]  
   > $ cd ~  
