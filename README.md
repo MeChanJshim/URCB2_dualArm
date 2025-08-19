@@ -1,14 +1,14 @@
 # URCB2_dualArm
 
-### HARDWARE
+## HARDWARE
 * ROBOT: UR10CB2  
 * FT SENSOR: AIDIN robotics AFT200-D80
 
-### OS
+## OS
 * UBUNTU 22.04
 * ROS2 HUMBLE
 
-### REQUIRED PACKAGE
+## REQUIRED PACKAGE
 * OSQP
   > ** Build from source file **  
   > [Requrements]  
