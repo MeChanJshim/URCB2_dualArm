@@ -66,7 +66,7 @@
 
 > ### Execution robot command
 > ** Execute Single UR10CB2 command **    
-> $ ros2 run Y2RobMotion singleArm_cmd   
+>    $ ros2 run Y2RobMotion singleArm_cmd   
 > ** Execute Dual UR10CB2 command **    
 > $ ros2 run Y2RobMotion dualArm_cmd
 
