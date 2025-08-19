@@ -51,4 +51,9 @@
 > *** Dual UR10CB2 activate ***  
 > $ ros2 run yur_ros2_driver yur_multi  
 
+> ### Communication with virual robot
+> *** Single UR10CB2 activate ***  
+> $ ros2 launch Y2UR_Visual view_ur10Single.launch.py  
 
+> ### Communication with FT Sensor
+> 
