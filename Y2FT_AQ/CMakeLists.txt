@@ -34,6 +34,16 @@ add_executable(FTGetMain src/FTGetMain.cpp)
 target_link_libraries(FTGetMain FT_rawGet)
 ament_target_dependencies(FTGetMain rclcpp Y2Filters geometry_msgs std_msgs Y2Matrix)
 
+# dualFTGetMain - RFTGetMain
+add_executable(RFTGetMain src/dualFTGetMain/RFTGetMain.cpp)
+target_link_libraries(RFTGetMain FT_rawGet)
+ament_target_dependencies(RFTGetMain rclcpp Y2Filters geometry_msgs std_msgs Y2Matrix)
+
+# dualFTGetMain - LFTGetMain
+add_executable(LFTGetMain src/dualFTGetMain/LFTGetMain.cpp)
+target_link_libraries(LFTGetMain FT_rawGet)
+ament_target_dependencies(LFTGetMain rclcpp Y2Filters geometry_msgs std_msgs Y2Matrix)
+
 # === Create install ===
 # install libraries
 install(TARGETS FT_rawGet
