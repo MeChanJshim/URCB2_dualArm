@@ -53,7 +53,7 @@ install(TARGETS FT_rawGet
 )
 
 # install executables
-install(TARGETS FT_rawGet_Example FTGetMain
+install(TARGETS FT_rawGet_Example FTGetMain RFTGetMain LFTGetMain
   DESTINATION lib/${PROJECT_NAME}
 )
 
