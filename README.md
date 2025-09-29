@@ -78,10 +78,10 @@
 > ** Execute Dual UR10CB2 command **    
 > $ ros2 run Y2RobMotion dualArm_cmd
 
-> ### Data Aquisition 
-> ** Execute Single UR10CB2 measure ** 
-> $ ros2 run Y2RobMotion singleArm_measure 
-> ** Execute Single UR10CB2 measure ** 
+> ### Data Aquisition
+> ** Execute Single UR10CB2 measure **  
+> $ ros2 run Y2RobMotion singleArm_measure  
+> ** Execute Single UR10CB2 measure **  
 > $ ros2 run Y2RobMotion dualArm_measure  
 
 > ### Code Structure
