@@ -61,7 +61,10 @@
 > $ ros2 launch Y2UR_Visual view_ur10Single.launch.py  
 
 > ### Communication with FT Sensor
+> ** Single UR10CB2 FT-acuisition **  
 > $ ros2 run Y2FT_AQ FTGetMain  
+> ** Dual UR10CB2 FT-acuisition **  
+> $ ros2 launch Y2FT_AQ dualFTGetMain.launch.py  
 
 > ### Execution robot motion
 > ** Execute Single UR10CB2 motion **    
